@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Create New Order [Firefox]</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Create New Order [Firefox]</h1>
+<p>
+  Test duration: 154,792s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">myprojects.automation.assignment5.tests.PlaceOrderTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkSiteVersion
+      </td>
+  <td class="duration">
+    28,364s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [13:52:32.179] ACTION: If test failed, because driver cannot find slider with images on the page - it&apos;s a mobile emulation<br />
+                                [13:52:32.18 ] Navigate to http://prestashop-automation.qatestlab.com.ua/<br />
+                                [13:52:55.58 ] Search for element By.xpath: //div[@id=&apos;carousel&apos;]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createNewOrder
+      </td>
+  <td class="duration">
+    46,831s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [13:53:00.544] Navigate to http://prestashop-automation.qatestlab.com.ua/<br />
+                                [13:53:03.019] Execute script: var scrollBefore = $(window).scrollTop();window.scrollTo(scrollBefore, document.body.scrollHeight);return $(window).scrollTop() &gt; scrollBefore;<br />
+                                [13:53:03.753] Script executed<br />
+                                [13:53:03.753] Search for element By.partialLinkText: Все товары<br />
+                                [13:53:04.076] Execute script: arguments[0].click()<br />
+                                [13:53:05.307] Script executed<br />
+                                [13:53:07.627] Search for element By.xpath: //h1[@class=&apos;h3 product-title&apos;]/a<br />
+                                [13:53:07.769] Execute script: arguments[0].click()<br />
+                                [13:53:07.88 ] Script executed<br />
+                                [13:53:07.88 ] ACTION: Get information about currently opened product<br />
+                                [13:53:07.88 ] Search for element By.cssSelector: .h1[itemprop=&apos;name&apos;]<br />
+                                [13:53:09.488] Search for element By.cssSelector: a[href=&apos;#product-details&apos;]<br />
+                                [13:53:10.201] Execute script: arguments[0].click()<br />
+                                [13:53:11.405] Script executed<br />
+                                [13:53:11.405] Search for element By.cssSelector: .product-quantities&gt;span<br />
+                                [13:53:12.872] Search for element By.cssSelector: .product-quantities&gt;span<br />
+                                [13:53:13.318] Search for element By.xpath: //span[@itemprop=&apos;price&apos;]<br />
+                                [13:53:13.376] Search for element By.className: add-to-cart<br />
+                                [13:53:13.398] Execute script: arguments[0].click()<br />
+                                [13:53:14.076] Script executed<br />
+                                [13:53:14.076] Search for element By.xpath: //a[contains(text(), &apos;перейти к оформлению&apos;)]<br />
+                                [13:53:15.004] Search for element By.xpath: //a[contains(text(), &apos;перейти к оформлению&apos;)]<br />
+                                [13:53:15.141] Search for element By.xpath: //a[contains(text(), &apos;перейти к оформлению&apos;)]<br />
+                                [13:53:15.159] Execute script: arguments[0].click()<br />
+                                [13:53:15.203] Script executed<br />
+                                [13:53:16.043] ACTION: Checking that in cart displayed only one product position<br />
+                                [13:53:16.044] Search for element By.className: cart-item<br />
+                                [13:53:16.124] ACTION: Checking that product&apos;s name corresponds to the product&apos;s name on the product&apos;s page<br />
+                                [13:53:16.124] Search for element By.cssSelector: .product-line-info:nth-child(1)<br />
+                                [13:53:16.337] ACTION: Checking that product&apos;s price corresponds to the product&apos;s price on the product&apos;s page<br />
+                                [13:53:16.337] Search for element By.className: product-price<br />
+                                [13:53:16.416] Search for element By.xpath: //a[contains(text(), &apos;Оформление заказа&apos;)]<br />
+                                [13:53:16.436] Execute script: arguments[0].click()<br />
+                                [13:53:16.488] Script executed<br />
+                                [13:53:16.488] Search for element By.id: customer-form<br />
+                                [13:53:18.126] Search for element By.cssSelector: input[name=&apos;firstname&apos;]<br />
+                                [13:53:18.169] Change value of input: QaTestLab<br/>
+<br />
+                                [13:53:22.321] Changed element input<br />
+                                [13:53:22.321] Search for element By.cssSelector: input[name=&apos;lastname&apos;]<br />
+                                [13:53:25.537] Change value of input: BestTestingCourses<br/>
+<br />
+                                [13:53:25.725] Changed element input<br />
+                                [13:53:25.725] Search for element By.cssSelector: input[name=&apos;email&apos;]<br />
+                                [13:53:25.767] Change value of input: Webinar2017@gmail.com<br/>
+<br />
+                                [13:53:26.001] Changed element input<br />
+                                [13:53:26.001] Search for element By.xpath: //button[contains(text(), &apos;Продолжить&apos;)]<br />
+                                [13:53:26.025] Execute script: arguments[0].click()<br />
+                                [13:53:26.2&nbsp; ] Script executed<br />
+                                [13:53:26.2&nbsp; ] Search for element By.cssSelector: input[name=&apos;address1&apos;]<br />
+                                [13:53:27.351] Change value of input: Lenina, 10/app.45<br/>
+<br />
+                                [13:53:27.867] Changed element input<br />
+                                [13:53:27.867] Search for element By.cssSelector: input[name=&apos;postcode&apos;]<br />
+                                [13:53:27.918] Change value of input: 23456<br/>
+<br />
+                                [13:53:28.141] Changed element input<br />
+                                [13:53:28.141] Search for element By.cssSelector: input[name=&apos;city&apos;]<br />
+                                [13:53:28.189] Change value of input: Charkiv<br/>
+<br />
+                                [13:53:28.303] Changed element input<br />
+                                [13:53:28.303] Search for element By.id: checkout-delivery-step<br />
+                                [13:53:28.327] Execute script: arguments[0].click()<br />
+                                [13:53:28.405] Script executed<br />
+                                [13:53:33.405] Search for element By.id: checkout-payment-step<br />
+                                [13:53:33.519] Execute script: arguments[0].click()<br />
+                                [13:53:33.655] Script executed<br />
+                                [13:53:33.655] Search for element By.xpath: //span[contains(text(), &apos;Оплата банковским переводом&apos;)]<br />
+                                [13:53:34.83 ] Search for element By.xpath: //span[contains(text(), &apos;Оплата банковским переводом&apos;)]<br />
+                                [13:53:34.932] Execute script: arguments[0].click()<br />
+                                [13:53:35.453] Script executed<br />
+                                [13:53:35.454] Execute script: var scrollBefore = $(window).scrollTop();window.scrollTo(scrollBefore, document.body.scrollHeight);return $(window).scrollTop() &gt; scrollBefore;<br />
+                                [13:53:35.579] Script executed<br />
+                                [13:53:35.579] Search for element By.cssSelector: #conditions-to-approve&nbsp; .custom-checkbox<br />
+                                [13:53:35.625] Click on element span<br />
+                                [13:53:36.302] Search for element By.cssSelector: #payment-confirmation button[type=&apos;submit&apos;]<br />
+                                [13:53:36.566] Click on element button<br />
+                                [13:53:45.113] ACTION: Checking that correct message about order&apos;s confirmation is displayed<br />
+                                [13:53:45.113] Search for element By.xpath: //h3[@class=&apos;h1 card-title&apos;]<br />
+                                [13:53:45.227] ACTION: Checking that in order&apos;s details displayed only one product position<br />
+                                [13:53:45.227] Search for element By.className: col-xs-2<br />
+                                [13:53:45.279] ACTION: Checking that in order&apos;s details product&apos;s name corresponds to the product&apos;s name on the product&apos;s page<br />
+                                [13:53:45.279] Search for element By.className: col-sm-4<br />
+                                [13:53:45.336] ACTION: Checking that in order&apos;s details product&apos;s price corresponds to the product&apos;s price on the product&apos;s page<br />
+                                [13:53:45.336] Search for element By.className: col-xs-5<br />
+                                [13:53:45.383] ACTION: Checking that quantity of product on product&apos;s page became less by 1 after checkout<br />
+                                [13:53:45.383] Navigate to http://prestashop-automation.qatestlab.com.ua/ru/summer-dresses/7-34-printed-chiffon-dress.html#/1-size-s/16-color-yellow<br />
+                                [13:53:46.502] Search for element By.cssSelector: a[href=&apos;#product-details&apos;]<br />
+                                [13:53:46.528] Execute script: arguments[0].click()<br />
+                                [13:53:46.624] Script executed<br />
+                                [13:53:46.624] Search for element By.cssSelector: .product-quantities&gt;span<br />
+                                [13:53:47.214] Search for element By.cssSelector: .product-quantities&gt;span<br />
+                                [13:53:47.332] Search for element By.cssSelector: .product-quantities&gt;span<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
